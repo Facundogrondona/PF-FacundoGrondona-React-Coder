@@ -1,0 +1,48 @@
+.cardForm {
+  .form {
+    display: flex;
+    flex-direction: column;
+    .inputForm {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 97%;
+      .labelForm {
+        margin-left: 6px;
+        margin-top: 7px;
+        padding-top: 3%;
+      }
+      .btnSession {
+        display: flex;
+        flex-direction: row;
+        margin-top: 17px;
+      }
+      .labelRegister {
+        display: flex;
+        margin-top: 50px;
+        align-items: center;
+        .btnRegister {
+          border-radius: 50px;
+          border-color: #dc3545;
+          background-color: #dc3545;
+          color: #fff;
+        }
+      }
+    }
+    .btnForm {
+      margin-bottom: 5px;
+      border-radius: 50px;
+    }
+    .btnSession {
+      margin: auto;
+      margin-top: 5px;
+      border-radius: 50px;
+    }
+  }
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}

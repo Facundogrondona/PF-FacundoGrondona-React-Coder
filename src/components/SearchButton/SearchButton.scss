@@ -1,0 +1,33 @@
+.styleForm {
+  display: flex;
+  justify-content: space-evenly;
+  .inputSearch {
+    width: 83px;
+    height: 76%;
+    border-radius: 25px;
+  }
+  .buttonSearch {
+    height: 75%;
+    border-radius: 25px;
+    position: static;
+  }
+}
+
+.inputSearch:focus-within {
+  display: block;
+  width: 70%;
+}
+
+.inputSearch:hover {
+  width: 70%;
+  @media (max-width: 1024px) {
+    width: 7rem;
+  }
+}
+.Ease-In {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}

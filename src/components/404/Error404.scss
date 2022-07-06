@@ -1,0 +1,11 @@
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    .imgError{
+        width:100%;
+        margin-bottom: 5px;
+    }
+}

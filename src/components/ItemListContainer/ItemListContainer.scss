@@ -1,0 +1,45 @@
+.light {
+  margin: 0;
+  .cardContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: auto;
+    margin-top: 10px;
+    .itemList {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e7e7e6;
+    }
+  }
+}
+
+//Theme dark
+.dark {
+  margin: 0;
+  background-color: #181819;
+  .cardContainer {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: auto;
+    margin-top: 10px;
+
+    background-color: #181819;
+  }
+  .itemList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181819;
+  }
+}

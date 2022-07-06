@@ -1,0 +1,26 @@
+.itemDecoration {
+  text-decoration: none;
+  color: #000;
+  .item {
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 29rem;
+    .imgItem {
+      width: 150px;
+      height: 200px;
+      margin: auto;
+      margin-top: 10px;
+    }
+  }
+  .linkButton {
+    text-decoration: none;
+    border: 1px solid #ffe083;
+    background-color: #ffe083;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 1rem;
+    color: #000;
+  }
+}
